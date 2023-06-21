@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js?v=1"></script>
+</head>
+
+<body>
+
+  <h1>МЕТОДЫ</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="rowHead">ЧИСЛО</th>
+        <th class="rowHead">СТРОКА</th>
+        <th class="rowHead">МАССИВ</th>
+        <th class="rowHead">ОБЪЕКТ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.pow/"
+              target="_blank"><strong>Math.pow()</strong></a></p>
+          <p>Возводит число в заданную степень. <i><strong></strong></i></p>
+          <p><strong>Math.pow(число, степень)</strong></p>
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/toUpperCase/"
+              target="_blank"><strong>.toUpperCase() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Преобразование строки в верхний регистр. При этом возвращается новая строка, а исходная строка не меняется.
+            <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.toUpperCase();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/join/" target="_blank"><strong>.join() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Объединяет элементы массива в строку с указанным разделителем (он будет вставлен между элементами массива). Разделитель задается параметром метода и не является обязательным. Если он не задан - по умолчанию в качестве разделителя возьмется запятая. <i><strong>Вернет строку</strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.join([разделитель]);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/object/Object.keys/" target="_blank"><strong>Object.keys() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Ввозвращает массив из свойств объекта в том же порядке, как и при перечислении через цикл. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>let values = Object.keys(объект,
+            из которого выводим
+            значения); </strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.sqrt/"
+              target="_blank"><strong>Math.sqrt() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает квадратный корень числа. <i><strong>Вернет число</strong></i></p> <!-- Принцип работы -->
+          <p><strong>Math.sqrt(положительное число);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/toLowerCase/"
+              target="_blank"><strong>.toLowerCase() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Преобразует символы строки в нижний регистр. При этом мы получаем новую строку, а исходная строка остается
+            неизменной.<i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.toLowerCase();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/shift/" target="_blank"><strong>.shift() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Удаляет первый элемент из массива. При этом исходный массив изменяется, а результатом метода возвращается удаленный элемент. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.shift();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/object/Object.values/" target="_blank"><strong>Object.values() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает массив из значений объекта в том же порядке, как и перечислении через цикл. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>let values = Object.values(объект,
+            из которого выводим
+            значения); </strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.round/"
+              target="_blank"><strong>Math.round() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Округляет до ближайшего целого числа по правилам математического округления. <i><strong></strong></i></p>
+          <!-- Принцип работы -->
+          <p><strong>Math.round(число);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/substr/"
+              target="_blank"><strong>.substr() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает подстроку из строки (исходная строка при этом не изменяется). <i><strong></strong></i></p>
+          <!-- Принцип работы -->
+          <p><strong>строка.substr(откуда отрезать,
+              [сколько символов отрезать]);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/pop/" target="_blank"><strong>.pop() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Удаляет последний элемент из массива. При этом исходный массив изменяется, а результатом метода возвращается удаленный элемент. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.pop();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/object/Object.assign/" target="_blank"><strong>Object.assign() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Копирует свойства и значения исходного объекта, возвращая при этом новый объект. В первом параметре метода мы задаем целевой объект, в который копируем, а во втором - указываем объекты, которые нужно скопировать. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>Object.assign(куда копировать,
+            объекты); </strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.ceil/"
+              target="_blank"><strong>Math.ceil() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Округление дробного числа до целого всегда в большую сторону. <i><strong></strong></i></p>
+          <!-- Принцип работы -->
+          <p><strong>Math.ceil(число);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/substring/"
+              target="_blank"><strong>.substring() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает подстроку из строки (исходная строка при этом не изменяется). <i><strong></strong></i></p>
+          <!-- Принцип работы -->
+          <p><strong>строка.substring(откуда начать отрезать,
+              [докуда отрезать]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/push/" target="_blank"><strong>.push() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Добавляет неограниченное количество элементов в конец массива. При этом исходный массив изменяется, а результатом возвращается новая длина массива. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.push(элемент,
+            элемент, элемент...); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.floor/"
+              target="_blank"><strong>Math.floor() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Округление числа до целых всегда в меньшую сторону. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>Math.floor(число);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/slice/" target="_blank"><strong>.slice() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает вырезанную подстроку из строки (исходная строка при этом не изменяется). <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.slice(откуда
+            отрезать, [докуда
+            отрезать]);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/unshift/" target="_blank"><strong>.unshift() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Добавляет неограниченное количество новых элементов в начало массива. При этом исходный массив изменяется, а результатом возвращается новая длина массива. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.unshift(элемент,
+            элемент, элемент...); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/toFixed/"
+              target="_blank"><strong>.toFixed() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Округление числа до указанного знака в дробной части. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>число.toFixed([количество знаков в дробной
+              части]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/includes/" target="_blank"><strong>.includes('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Поиск заданной строки в текущей с учетом регистра. <i><strong>Вернет булевое значение</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.includes('что
+            ищем', [откуда начинать
+            поиск]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/slice/" target="_blank"><strong>.slice() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Вырезает и возвращает указанную часть массива. Сам массив при этом не изменяется. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.slice(откуда
+            отрезать, [докуда
+            отрезать]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/toPrecision/"
+              target="_blank"><strong>.toPrecision() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Округляет число до заданного знака. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>число.toPrecision(длина);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/startsWith/" target="_blank"><strong>.startsWith('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Проверяет начинается ли строка с указанной в первом параметре подстроки. <i><strong>Вернет булевое значение</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.startsWith('что
+            ищем', [начало проверки]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/splice/" target="_blank"><strong>.splice( , ) </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Удаляет или добавляет элементы в массив. Можно только удалять элементы, только добавлять или делать и то и другое одновременно. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.splice(откуда
+            удаляем, сколько удаляем, [вставить],
+            [вставить]...); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.max/"
+              target="_blank"><strong>Math.max() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает максимальное число из группы чисел. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>Math.max(число, число, число...);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/endsWith/" target="_blank"><strong>.endsWith('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Проверяет, заканчивается ли строка на указанную в первом параметре подстроку. <i><strong>Вернет булевое значение</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.endsWith('что
+            ищем', [длина строки]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/array/reverse/" target="_blank"><strong>.reverse() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Изменяет порядок элементов в массиве на обратный. Метод изменяет исходный массив (он станет перевернутым) и возвращает также перевернутый массив (можно пользоваться и так, и так). <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>массив.reverse();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.min/"
+              target="_blank"><strong>Math.min() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает минимальное число из группы чисел. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>Math.min(число, число, число...);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/indexOf/" target="_blank"><strong>.indexOf('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Осуществляет поиск подстроки в строке. Метод вернет позицию первого совпадения, а если оно не найдено, то вернет -1.<i><strong>Вернет число</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.indexOf('что ищем',
+            [откуда начинать поиск]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.random/"
+              target="_blank"><strong>Math.random() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает случайное дробное число от 0 до 1. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>Math.random();</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/lastIndexOf/" target="_blank"><strong>.lastIndexOf('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Поиск последнего вхождения подстроки в строке. Метод вернет позицию первого совпадения с конца, а если оно не найдено, то вернет -1.<i><strong>Вернет число</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.lastIndexOf('что
+            ищем', [откуда начинать
+            поиск]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/math/Math.abs/"
+              target="_blank"><strong>Math.abs() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Возвращает модуль числа, то есть из отрицательного числа делает положительное. <i><strong></strong></i></p>
+          <!-- Принцип работы -->
+          <p><strong>Math.abs(число);</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/replace/" target="_blank"><strong>.replace('') </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Gоиск и замену частей строки. Первым параметром принимается подстрока, которую заменяем, а вторым - подстрока, на которую заменяем. <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.replace('что заменяем',
+            'на что заменяем'); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/split/" target="_blank"><strong>.split() </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Разбивает строки в массив по указанному в первом параметре разделителю. Если он не задан - вернется вся строка. Если он задан как пустые кавычки, то каждый символ строки попадет в отдельный элемент массива. <i><strong>Вернет массив строк</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.split([разделитель],
+            [максимальное количество
+            элементов]); </strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="https://code.mu/ru/javascript/manual/string/length/" target="_blank"><strong>.length </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p>Позволяет узнать длину строки. Под длиной понимается количество символов в ней. <i><strong>Вернет число</strong></i></p> <!-- Принцип работы -->
+          <p><strong>строка.length;</strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+
+      <tr>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+        <td class="row">
+          <p class="nameMethod"><a href="" target="_blank"><strong> </strong></a></p>
+          <!-- Название метода со ссылкой -->
+          <p> <i><strong></strong></i></p> <!-- Принцип работы -->
+          <p><strong></strong></p> <!-- Синтаксис -->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>

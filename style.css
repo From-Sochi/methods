@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Light'),
+        url('../fonts/open-sans-light.woff2') format("woff2"),
+        url('../fonts/open-sans-light.woff') format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Semibold'),
+        url('../fonts/open-sans-semibold.woff2') format("woff2"),
+        url('../fonts/open-sans-semibold.woff') format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Regular'),
+        url("../fonts/open-sans.woff") format("woff"),
+        url("../fonts/open-sans.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+  margin: 2vw 42vw;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'OpenSans', sans-serif;
+}
+
+table {
+  border-collapse: inherit;
+}
+
+td, th {
+  max-width: 100px;
+  max-height: 80px;
+  overflow: hidden;
+  word-break: break-all;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:not(:first-child) {
+  border-top: 1px solid #ccc;
+}
+
+.table {
+  table-layout: fixed;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.rowHead {
+  background-color: rgb(248, 244, 239);
+}
+
+.row {
+  transition: all .2s ease;
+  text-align: center;
+}
+
+.row:hover {
+  background-color: antiquewhite;
+}
+
+.row:active {
+  background-color: rgb(247, 227, 202);
+}
+
+.nameMethod {
+  font-size: 20px;
+}
